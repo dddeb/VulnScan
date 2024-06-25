@@ -1,7 +1,7 @@
 # VulnScan
 A Bash CLI script to automate mapping the network for open ports and their service versions, and CVES related to them. As well as weak login passwords for login services.
 
-### Content Structure
+## Content Structure
 1. Get a network to scan. Choose auto-detect or input.
 2. Get a name to create a new folder. Create the new folder.
 3. Choose basic or full scan.
@@ -21,3 +21,6 @@ A Bash CLI script to automate mapping the network for open ports and their servi
 7. Summary
     a. Save summary to a file.
     b. Zip the entire folder.
+
+## Output
+images coming soon
