@@ -80,16 +80,14 @@ telnet (port 23)
 rdp (port 3389)  
 Only open ports will be displayed for the user to select from.  
 User will input which service to scan against the list of passwords and usernames.  
+
+#### Choosing inputs
+![image of input password username service](output_imgs/05abc.png "input password username service")  
   
 Fourth, hydra scan will run using previous 3 inputs. Hydra scan report will be saved to a file. Any found credentials will be printed in terminal as well.  
 After scan is complete, the user can opt to run another scan. This is so user can scan multiple open services without repeating the whole process from the beginning.  
-#### Choosing input for step 5a  
-![image of input pass file](output_imgs/05a-pass-input.png "input pass file")  
-#### Step 5b  
-![image of input user file](output_imgs/05b-userinput.png "input user file")  
-#### Step 5c  
-![image of choose login service](output_imgs/05c-loginservice.png "choose login service")  
-#### Step 5d
+  
+#### Hydra scan
 ![image of hydra scan](output_imgs/05d-hydra.png "hydra scan")  
 ![image of hydra scan](output_imgs/05d-hydra-result2.png "hydra scan")  
 ![image of hydra input choice](output_imgs/05d-hydra2.png "hydra input choice")  
