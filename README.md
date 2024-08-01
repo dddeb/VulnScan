@@ -1,5 +1,6 @@
 # VulnScan  
 A Bash CLI script to automate mapping the network for open ports and their service versions, and CVES related to them. As well as weak login passwords for login services.  
+All results are logged, and a summary report is generated at the end.  
 Tested on Kali Linux.  
 
 ## How to Use  
